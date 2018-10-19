@@ -5,4 +5,4 @@ script:
   - echo "toto"
   - npm update
   - npm test
-  - npm node_modules/.bin/jshint src
+  - node_modules/.bin/jshint src
