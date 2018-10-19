@@ -1,3 +1,3 @@
-language : JAVASCRIPT
+language : NODE.JS
 node_js:
         - "node"
