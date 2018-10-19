@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brice/my-test-project.git"
+    "url": "git+https://github.com/YrielShaw/TestProject.git"
   },
   "bugs": {
-    "url": "https://github.com/brice/my-test-project/issues"
+    "url": "https://github.com/YrielShaw/TestProject/issues"
   },
-  "homepage": "https://github.com/brice/my-test-project#readme"
+  "homepage": "https://github.com/YrielShaw/TestProject#readme"
 }
