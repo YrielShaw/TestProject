@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jshint": "^2.9.6",
+    "jshit": "0.0.1",
     "mocha": "^5.2.0"
   },
   "repository": {
