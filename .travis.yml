@@ -1,3 +1,20 @@
-language : JAVASCRIPT
+language : NODE.JS
 node_js:
         - "node"
+script:
+  - echo "toto"
+  - npm update
+  - npm test
+  - node_modules/.bin/jshint src
+
+before_deploy:
+  -node_modules/.bin/jshint src
+deploy :
+	provider : pages
+	skip-cleanup : true
+	github-token : $GITHUB_TOKEN
+	keep-history : true
+	local-dir : out
+	on :
+	   branch : NouvelleBranche 
+
