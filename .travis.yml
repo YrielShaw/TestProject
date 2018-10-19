@@ -1,3 +1,6 @@
 language : NODE.JS
 node_js:
         - "node"
+script:
+  -echo "toto"
+  -npm update
