@@ -1,0 +1,26 @@
+{
+  "name": "my-test-project",
+  "version": "1.0.0",
+  "description": "This application is a part of a bigger app that intend to parse json results from an test manager in order to display what happened.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brice/my-test-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brice/my-test-project/issues"
+  },
+  "homepage": "https://github.com/brice/my-test-project#readme"
+}
