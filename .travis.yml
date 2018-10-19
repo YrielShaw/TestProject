@@ -4,3 +4,5 @@ node_js:
 script:
   - echo "toto"
   - npm update
+  - npm tests
+  - npm node_modules/.bin/jshint src
